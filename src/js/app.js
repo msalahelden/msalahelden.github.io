@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 110,
+        "value": 80,
         "density": {
           "enable": true,
-          "value_area": 1000
+          "value_area": 800
         }
       },
       "color": {
@@ -52,10 +52,10 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "line_linked": {
         "enable": true,
-        "distance": 300,
+        "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
-        "width": 2
+        "width": 1
       },
       "move": {
         "enable": true,
@@ -76,11 +76,11 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "bubble"
+          "enable": true,
+          "mode": "grab"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "repulse"
         },
         "resize": true
