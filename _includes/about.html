@@ -46,3 +46,103 @@
     <p> </p>
   </div>
 </div>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page with Navigation and Three Divisions</title>
+    <style>
+        /* Add some basic styling with CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Style the divisions */
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Align content to the ends */
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            background-color: #f2f2f2;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* Style the image within each division */
+        .section img {
+            width: 100px; /* Adjust the width of the image as needed */
+        }
+
+        /* Style the navigation list */
+        #navigation {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        #navigation ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #navigation li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        #navigation a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div id="navigation">
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#division1">Division 1</a></li>
+            <li><a href="#division2">Division 2</a></li>
+            <li><a href="#division3">Division 3</a></li>
+        </ul>
+    </div>
+
+    <!-- Introductory Content -->
+    <div id="intro">
+        <h1>Welcome to My Website</h1>
+        <p>This is some introductory content. Feel free to replace it with your own text.</p>
+    </div>
+
+    <!-- Division 1 -->
+    <div class="section" id="division1">
+        <h2>Division 1</h2>
+        <p>This is the content of the first division.</p>
+        <img src="your-image1.jpg" alt="Image 1">
+    </div>
+
+    <!-- Division 2 -->
+    <div class="section" id="division2">
+        <h2>Division 2</h2>
+        <p>This is the content of the second division.</p>
+        <img src="your-image2.jpg" alt="Image 2">
+    </div>
+
+    <!-- Division 3 -->
+    <div class="section" id="division3">
+        <h2>Division 3</h2>
+        <p>This is the content of the third division.</p>
+        <img src="your-image3.jpg" alt="Image 3">
+    </div>
+
+</body>
+</html>
